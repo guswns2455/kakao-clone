@@ -4,28 +4,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-  <title>Friends</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Friends!</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
+  <header class="top-header">
     <div class="header__top">
       <div class="header__column">
-        <i class="fas fa-fighter-jet"></i>
+        <i class="fa fa-fighter-jet"></i>
         <i class="fa fa-wifi"></i>
       </div>
       <div class="header__column">
         <span class="header__time">18:38</span>
       </div>
       <div class="header__column">
-        <i class="fa famoon-o"></i>
-        <i class="fab fa-bluetooth-b"></i>
+        <i class="fa fa-moon-o"></i>
+        <i class="fa fa-bluetooth-b"></i>
         <span class="header__battery">66% <i class="fa fa-battery-full"></i></span>
       </div>
     </div>
     <div class="header__bottom">
       <div class="header__column">
-        <span class="header__text">Mange</span>
+        <span class="header__text">Manage</span>
       </div>
       <div class="header__column">
         <span class="header__text">Friends <span class="header__number">1</span></span>
@@ -38,7 +39,7 @@
   <main class="friends">
     <div class="search-bar">
       <i class="fa fa-search"></i>
-      <input type="text" placeholder="Find frends, chats, Plus Friends">
+      <input type="text" placeholder="Find friends, chats, Plus Friends">
     </div>
     <section class="friends__section">
       <header class="friends__section-header">
@@ -46,12 +47,14 @@
       </header>
       <div class="friends__section-rows">
         <div class="friends__section-row">
-          <img src="" alt="">
-          <span class="firends__section-name">met1</span>
+            <img src="images/avatar.jpg" alt="">
+            <a href="profile.html" class="fiends__section-name">
+              Nicolas
+            </a>
         </div>
         <div class="friends__section-row">
-          <img src="" alt="">
-          <span class="firends__section-name">Friends' Names Display</span>
+          <img src="images/avatar.jpg" alt="">
+          <span class="fiends__section-name">Friends' Names Display</span>
         </div>
       </div>
     </section>
@@ -60,20 +63,20 @@
         <h6 class="friends__section-title">Friends</h6>
       </header>
       <div class="friends__section-rows">
-        <div class="friends__section-row">
+        <div class="friends__section-row with-tagline">
           <div class="friends__section-column">
-            <img src="" alt="">
-            <span class="friends__section-name">LYNN</span>
+              <img src="images/avatar.jpg" alt="">
+              <span class="friends__section-name">Nicolas</span>
           </div>
           <span class="friends__section-tagline">
-            Life is short. So live your Life.
+            Life is short. So live your life.
           </span>
         </div>
       </div>
     </section>
   </main>
   <nav class="tab-bar">
-    <a href="index.html" class="tab-bar__tab tab-bar__tab--elected">
+    <a href="index.html" class="tab-bar__tab tab-bar__tab--selected">
       <i class="fa fa-user"></i>
       <span class="tab-bar__title">Friends</span>
     </a>
@@ -90,5 +93,8 @@
       <span class="tab-bar__title">More</span>
     </a>
   </nav>
+  <div class="bigScreenText">
+    <span>Please make your screen smaller</span>
+  </div>
 </body>
 </html>
